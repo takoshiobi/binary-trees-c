@@ -1,0 +1,35 @@
+digraph G{
+N1 [label="12"]
+N2 [label="9"]
+N3 [label="1"]
+N4 [style=invis]
+N5 [style=invis]
+N3 -> N4 [style=invis]
+N3 -> N5 [style=invis]
+N6 [label="5"]
+N7 [style=invis]
+N8 [style=invis]
+N6 -> N7 [style=invis]
+N6 -> N8 [style=invis]
+N2 -> N3
+N2 -> N6
+N9 [label="8"]
+N10 [style=invis]
+N11 [label="4"]
+N12 [label="7"]
+N13 [style=invis]
+N14 [style=invis]
+N12 -> N13 [style=invis]
+N12 -> N14 [style=invis]
+N15 [label="6"]
+N16 [style=invis]
+N17 [style=invis]
+N15 -> N16 [style=invis]
+N15 -> N17 [style=invis]
+N11 -> N12
+N11 -> N15
+N9 -> N10 [style=invis]
+N9 -> N11
+N1 -> N2
+N1 -> N9
+}
